@@ -1,0 +1,305 @@
+/*character tags highlight*/
+.tags .characters a,
+.character ul li a {
+  background-color: #32144d;
+}
+
+.tags .characters a:hover,
+.character ul li a:hover {
+  background-color: rgba(35, 0, 59,0.8);
+  color: #fff;
+}
+
+p.muted.notice {
+  display: none;
+}
+
+/*tag filters*/
+.blurb:has(span.rating-explicit):not(.blurb.series-3048510):not(.blurb.work-70242146):not(.blurb.work-44721676),
+.blurb.work-30343923,
+.blurb:has(a:is([href$="/tags/Sexual%20Content/works"],
+[href$="/tags/Smut/works"],
+[href$="/tags/Explicit/works"],
+.blurb:has[href$="/tags/Sex/works"]:not(.blurb.work-20112226),
+[href$="/tags/Tim%20Drake*s*Bruce%20Wayne/works"],
+[href$="/tags/Alya%20Bashing/works"])) {
+  display: none !important;
+}
+
+.blurb:has(a:is([href$="/tags/Harry%20Potter%20-%20J*d*%20K*d*%20Rowling/works"],
+[href$="%7C%20My%20Hero%20Academia%20(Anime%20*a*%20Manga)/works"],
+[href$="20Bangtan%20Boys%20%7C%20BTS/works"],
+[href$="%7C%20Genshin%20Impact%20(Video%20Game)/works"],
+[href$="/tags/Haikyuu!!/works"],
+[href$="/tags/Teen%20Wolf%20(TV)/works"],
+[href$="/tags/Sherlock%20(TV)/works"],
+[href$="/tags/Naruto/works"],
+[href$="/tags/One%20Piece%20(Anime%20*a*%20Manga)/works"],
+[href$="/tags/One%20Piece/works"],
+[href$="%7C%20Bungou%20Stray%20Dogs/works"],
+[href$="/tags/Shingeki%20no%20Kyojin%20%7C%20Attack%20on%20Titan/works"],
+[href$="/tags/Percy%20Jackson%20and%20the%20Olympians%20-%20Rick%20Riordan/works"],
+[href$="%7C%20Boku%20no%20Hero%20Academia%20%7C%20My%20Hero%20Academia/works"],
+[href$="/tags/Naruto%20(Anime%20*a*%20Manga)/works"],
+[href$="7C%20Jujutsu%20Kaisen%20(Manga)/works"],
+[href$="7C%20Jujutsu%20Kaisen%20(Anime)/works"],
+[href$="/tags/White%20Collar%20(TV%202009)/works"],
+[href$="tags/Percy%20Jackson%20and%20the%20Olympians%20*a*%20Related%20Fandoms%20-%20All%20Media%20Types/works"])) {
+  display: none !important;
+}
+
+.blurb:has(a:is([href*="AI%20assisted" i],
+[href*="AI-Assisted" i],
+[href*="AI-Generated" i],
+[href*="AI%20Generated" i],
+[href*="Generative%20AI" i]:not([href*="Fuck%20Generative%20AI"]),
+[href*="Co-Written%20with%20AI" i])) {
+  display: none !important;
+}
+
+/*pride flag tags*/
+a.tag[href*="Aromantic%20Asexual"i]:not([href*="phobia"i]),
+a.tag[href*="Asexual%20Aromantic"i]:not([href*="phobia"i]),
+a.tag[href*="AroAce"i]:not([href*="phobia"i]) {
+  background-size: 100% 150%;
+  background: linear-gradient(to right,rgba(239, 144, 7, 1) 0%, rgba(246, 211, 23, 1) 25%, rgba(255, 255, 255, 1) 50%, rgba(69, 188, 238, 1) 75%, rgba(30, 63, 84, 1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Aromantic"i]:not([href*="phobia"i]):not([href*="Asexual"i]),
+a.tag[href*="Aro"i]:not([href*="phobia"i]):not([href*="AroAce"i]):not([href*="Asexual"i]):not([href*="Baron%20Draxum"i]):not([href*="Parody"i]):not([href*="Carol"i]):not([href*="Aaron"i]) {
+  background-image: linear-gradient(to right, rgba(61, 165, 66, 1), rgba(167, 211, 121, 1), rgba(246, 248, 251, 1), rgba(169, 169, 169, 1), rgba(76, 76, 76));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Asexual"i]:not([href*="phobia"i]):not([href*="Aromantic%20Asexual"i]):not([href*="Aromantic"i]),
+a.tag[href*="Ace"i]:not([href*="phobia"i]):not([href*="place"i]):not([href*="face"i]):not([href*="brace"i]):not([href*="peace"i]):not([href*="carapace"i]):not([href*="race"i]):not([href*="space"i]):not([href*="Stacy"i]) :not([href*="Mace"i]):not([href*="Aroace"i]) {
+  background-image: linear-gradient(to right, rgba(76, 76, 76, 1), rgba(114, 114, 114, 1), rgba(204, 204, 204, 1), rgba(192, 127, 192, 1), rgba(141, 25, 141, 1), rgba(141, 25, 141));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Lesbian"i]:not([href*="phobia"i]) {
+  background-image: linear-gradient(to right, rgba(213, 45, 0, 1), rgba(239, 118, 39, 1), rgba(255, 154, 86, 1), rgba(235, 235, 235, 1), rgba(209, 98, 164, 1), rgba(181, 86, 144, 1), rgba(163, 2, 98));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Trans"i]:not([href*="Transphobia"i]):not([href*="transport"i]):not([href*="translation"i]):not([href*="transformers"i]):not([href*="transphobic"i]):not([href*="transform"i]):not([href*="transend"i]) {
+  background-image: linear-gradient(to right, rgba(32, 169, 214, 1), rgba(212, 127, 162, 1), rgba(220, 220, 220, 1), rgba(212, 127, 162, 1), rgba(32, 169, 214));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Bisexual"i]:not([href*="phobia"i]) {
+  background-image: linear-gradient(to right, rgba(255, 0 ,128, 1), rgba(163, 73, 164, 1), rgba(22, 52, 201, 1));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Non-Binary"i]:not([href*="phobia"i]),
+a.tag[href*="Nonbinary"i]:not([href*="phobia"i]) {
+  background-image: linear-gradient(to right, rgba(252, 244, 52, 1), rgba(220, 220, 220, 1), rgba(156, 89, 209, 1), rgba(44, 44, 44, 1));
+  background-size: 100% 150%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Pan"i]:not([href*="phobia"i]):not([href*="spanish"i]) {
+  background-size: 100% 150%;
+  background-image: linear-gradient(90deg, rgba(255,33,140,1) 0%, rgba(255,216,0,1) 33%, rgba(33,177,255,1) 66%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Gay"i]:not([href*="phobia"i]) {
+  background-size: 100% 150%;
+  background-image: linear-gradient(90deg, rgba(255,14,14,1) 0%, rgba(255,151,18,1) 20%, rgba(255,247,24,1) 40%, rgba(9,244,69,1) 60%, rgba(14,110,255,1) 80%, rgba(206,14,255,1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+a.tag[href*="Queer"i]:not([href*="phobia"i]),
+a.tag[href*="LGBT"i]:not([href*="phobia"i]) {
+  background-size: 100% 150%;
+  background-image: linear-gradient(90deg, rgba(255,14,14,1) 0%, rgba(255,151,18,1) 20%, rgba(255,247,24,1) 40%, rgba(9,244,69,1) 60%, rgba(14,110,255,1) 80%, rgba(206,14,255,1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+/*purple*/
+#header .logo,
+#header .heading sup,
+#header h1.heading span {
+  display: none;
+}
+
+#header h1.heading a::before {
+  content: "✨ AO3";
+  color: transparent !important;
+  text-shadow: 0 0 0 #9774ed;
+}
+
+#header #greeting img,
+#header .heading a,
+#header .heading a:visited,
+#header .user a:hover,
+#header .user a:focus,
+#header fieldset,
+#header form,
+#header p,
+#dashboard a:hover,
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.delete a,
+span.delete,
+span.unread,
+.replied,
+span.claimed,
+.draggable,
+.droppable,
+span.requested,
+a.work,
+.blurb h4 a:link,
+.blurb h4 img,
+.splash .module h3,
+.splash .browse li a:before,
+.required,
+.error,
+.comment_error,
+.kudos_error,
+a.cloud7,
+a.cloud8,
+#tos_prompt .heading {
+  color: #934fff;
+}
+
+#footer a:hover,
+#footer a:focus,
+#footer button:hover,
+#footer button:focus,
+.autocomplete .dropdown ul li:hover,
+.autocomplete .dropdown li.selected,
+a.tag:hover,
+.listbox .heading a.tag:visited:hover,
+.symbol .question,
+.qtip-content {
+  background: #934fff;
+  color: #111;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus {
+  background: #934fff;
+  color: #111;
+}
+
+#greeting .icon,
+#dashboard,
+#dashboard.own,
+.error,
+.comment_error,
+.kudos_error,
+.LV_invalid,
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active,
+.qtip-content {
+  border-color: #934fff;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: RGBA(0,0,0, .5);
+  border: 2px solid #9774ed;
+  border-radius: 8px;
+  box-shadow: 0px 0px 1px #9774ed;
+  color: #fff;
+}
+
+a:visited,
+.actions a:visited,
+.action a:link,
+.action a:visited,
+.listbox .heading a:visited,
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+#dashboard a:hover,
+label.action:hover,
+.action:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+#dashboard a:focus,
+.actions .disabled select,
+span.series .divider,
+.announcement .userstuff a:hover,
+.announcement .userstuff a:focus {
+  color: #daabeb;
+}
+
+#dashboard .current,
+.actions a:active,
+#outer .current,
+a.current,
+.current a:visited,
+span.unread,
+.replied,
+span.claimed,
+dl.index dd,
+.own,
+.draft,
+.draft .unread,
+.child,
+.unwrangled,
+.unreviewed,
+.ui-sortable li:hover {
+  background: #32144d;
+  border-color: #000;
+  box-shadow: -1px -1px 3px #000;
+}
+
+#header ul.primary,
+#outer #footer,
+.toggled form {
+  background: url("https://i.imgur.com/pdetPo3.png");
+}
