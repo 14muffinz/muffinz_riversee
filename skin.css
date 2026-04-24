@@ -303,3 +303,10 @@ dl.index dd,
 .toggled form {
   background: url("https://i.imgur.com/pdetPo3.png");
 }
+
+.event .userstuff {
+  background: #7100d4;
+  border-color: #3c0066;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #570077 0%, #6b00aa 100%);
+}
